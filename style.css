@@ -1,0 +1,309 @@
+
+/* Estilos para la barra de navegación */
+.nav-header {
+  background-color:#ffffff;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-item {
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.nav-item a:hover {
+  background-color:#eb4d4b;
+  color: #fff;
+}
+
+.nav-item a:hover {
+  transform: scale(1.1);
+}
+/* Estilos para la sección "Sobre mí" */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.greeting {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eb4d4b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #c92525;
+  transition: background-color 0.3s ease;
+
+}
+
+.about-img {
+  margin:10px ;
+  width: 50%;
+  max-width: 500px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de conocimientos */
+.mis-conocimientos {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 247, 251);
+  padding: 4.375rem 1.875rem;
+
+
+}
+
+.box-info-conocimiento,
+.box-info-proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtitulo{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.info-subtitulo{
+  font-size: 1.25rem;
+  margin: 0px;
+}
+
+
+.info-subtitulo {
+  width: 60%;
+}
+
+.box-card {
+  display: flex;
+  justify-content: space-around;
+  width: 73%;
+  flex-wrap: wrap;
+  margin: 2.5rem;
+
+
+}
+
+
+.card {
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(221, 223, 229);
+  align-items: center;
+  width: 15.625rem;
+  margin-bottom: 30px;
+  border-radius: 0.625rem;
+  background-color: white;
+
+
+
+}
+
+figure {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.icon {
+  font-size: 4.6875rem;
+}
+
+.fa-html5 {
+  color: rgb(229, 77, 38);
+}
+
+.fa-css3-alt {
+  color: rgb(61, 143, 198);
+}
+
+.fa-sass {
+  color: rgb(204, 102, 153);
+}
+
+.fa-js {
+  color: rgb(240, 219, 79)
+}
+
+.fa-react {
+  color: rgb(191, 240, 253);
+}
+
+.fa-git-alt {
+  color: rgb(243, 79, 41);
+}
+
+
+.box-frase {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3.125rem;
+background-color:#eb4d4b;
+
+}
+
+.comillas {
+display: flex;
+width: 20%;
+background-color: #eb4d4b;
+justify-content: center;
+}
+
+.fa-quote-right {
+color: white;
+font-size: 50px;
+}
+
+.frase {
+width: 40% ;
+font-size: 1.875rem;
+color: white;
+}
+
+.box-nombre {
+display: flex;
+justify-content: center;
+
+}
+
+.nombre {
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+<!-- ##### Comienzo Sección de mis proyectos ##### -->
+.mis-proyectos {
+width: calc(100% / 3 - (0.75em * 2));
+margin: 15px;
+border: 2px solid blueviolet;
+border-radius: 8px;
+padding: 20px;
+overflow: hidden
+}
+
+.box-info-proyectos {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-subtitulo {
+  font-size: 16px;
+  color: #888;
+}
+
+.box-projectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex: 20px;
+}
+
+.sector-proyecto {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.box {
+  position: relative;
+  border-color: #eb4d4b;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.info-card {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+}
+
+.generador-de-memes {
+  height: 150px;
+}
+
+.buscador-de-peliculas {
+  height: 120px;
+}
