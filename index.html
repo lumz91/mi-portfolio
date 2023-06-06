@@ -1,53 +1,50 @@
-<!DOCTYPE html>
-<body lang="en">
-<head>
+<!DOCTYPE html
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60c801c4ee.js" crossorigin="anonymous"></script>
-
-  </head>
+    <title>portfolio</title>
   <body>
+    <!-- Menú de navegación -->
     <header>
-      <div class="column menu-icon-container">
-        <nav class="nav-header">
-          <!-- Menú de navegación -->
+      <div class="container-menu">
+        <nav class="nav">
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="#about" class="mi-hola">HOLA</a>
+              <a href="#about" class="hola">HOLA</a>
             </li>
             <li class="nav-item">
-              <a href="#skills" class="mi-contacto">CONOCIMIENTOS</a>
+              <a href="#skills" class="conocimientos">CONOCIMIENTOS</a>
             </li>
             <li class="nav-item">
-              <a href="#projects" class="mi-proyectos">PROYECTOS</a>
+              <a href="#projects" class="proyectos">PROYECTOS</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="mi-contacto">CONTACTO</a>
+              <a href="#contact" class="contacto">CONTACTO</a>
             </li>
           </ul>
   <!-- ##### Comienzo Sección Sobre mí ##### -->
-  <section class="section about-section" id="about">
-    <div class="column main-content">
-      <div class="about-info">
-        <p class="greeting name">¡Hola! Soy</p>
-        <h1 class="about-name">Luciana Muñoz</h1>
-        <p class="about-description">
+  <section class="section" id="about">
+    <div class="main-conteiner">
+      <div class="section-info">
+        <p class="section-nombre">¡Hola! Soy</p>
+        <h1 class="">Luciana Muñoz</h1>
+        <p class="section-descripcion">
           Desarrolladora, guitarrista y fan de los animales
         </p>
         <a href="#proyects" class="button">LO QUE HAGO</a>
       </div>
-      <img src="imagen 2.png"" class="about-img">
+      <img src="imag.png"" class="about-img">
     </div>
   </section>
   <!-- ##### Comienzo Sección de mis conocimientos ##### -->
   <a name="mis-conocimientos"></a>
-  <section class="mis-conocimientos">
+  <section class="conocimientos">
       <div class="box-info-conocimiento">
           <h2 class="subtitulo">
              Mis conocimientos
@@ -126,7 +123,7 @@
     </section>
     <!-- ##### Comienzo Sección de mis proyectos ##### -->
     <a name="mis-proyectos"></a>
-    <section class="mis-proyectos">
+    <section class="proyectos">
         <div class="box-info-proyectos">
             <h2 class=" subtitulo"> Mis proyectos</h2>
             <p class=" info-subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
@@ -134,7 +131,7 @@
                 repudiandae. Necessitatibus nostrum officia eaque, eligendi accusantium similique labore eos
                 ipsa quod iste perspiciatis magni dicta at expedita laudantium quas!</p>
         </div>
-        <div class="box-projectos">
+        <div class="box-proyectos">
 
             <article class="sector-proyecto">
                 <a href="">
@@ -160,7 +157,6 @@
                     </figure>
                 </a>
             </article>
-
             <article class="sector-proyecto">
                 <a href="">
                     <figure class="box">
@@ -172,8 +168,6 @@
                     </figure>
                 </a>
             </article>
-
-
             <article class="sector-proyecto">
                 <a href="">
                     <figure class="box">
@@ -210,8 +204,6 @@
                     </figure>
                 </a>
             </article>
-
-
             <article class="sector-proyecto peliculas">
                 <a href="undraw_movie_night_fldd.png">
                     <figure class="box">
@@ -224,9 +216,137 @@
                     </figure>
                 </a>
             </article>
-
         </div>
-
     </section>
-
     <!-- fin de proyecto -->
+     <!-- ##### Comienzo Sección Contacto ##### -->
+     <!---Comienzo SECCION CONTACTO-->
+     <section id="contact-section">
+      <div class="column media-container">
+          <!---Links de redes sociales-->
+          <section class="contact-column">
+              <h2 class="section-title">Contactame</h2>
+              <ul class="contact-social-list">
+                  <li class="contact-item">
+                      <a href class="social-link twitter-link" aria-label="Twitter">
+                          <i aria-hidden="true" class="fab fa-twitter contact-social-icon"></i>
+                          @Lu-muñoz
+                      </a>
+                  </li>
+                  <li class="contact-item">
+                      <a href class="social-link github-link" aria-label="GitHub">
+                          <i aria-hidden="true" class="fab fa-github-alt contact-social-icon"></i>
+                          /lumz91
+                      </a>
+                  </li>
+                  <li class="contact-item">
+                      <a href class="social-link twitter-link" aria-label="Linkedin">
+                          <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon"></i>
+                          /Lu-muñoz
+                      </a>
+                  </li>
+                  <li class="contact-item">
+                      <a href class="social-link email-link" aria-label="Email">
+                          <i aria-hidden="true" class="fas fa-paper-plane contact-social-icon"></i>
+                          lucy.melisa.lm23@gmail.com
+                      </a>
+                  </li>
+              </ul>
+          </section>
+          <!---Final links de redes sociales-->
+          <section class="form-column">
+              <h2 class="section-title">Escribime</h2>
+              <!---Formulario-->
+              <form class="contact-form" method="POST">
+                  <div class="input-name-wrapper">
+                      <div class="form-control firstname">
+                          <label for="firstname">Nombre</label>
+                          <input type="text" name="Nombre" id="firstname" class="input-control input-firstname" placeholder="p. ej.: "Luciana" aria-label="Nombre" required>
+                          <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                          <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-control lastname">
+                          <label for="lastname">Apellido</label>
+                          <input type="text" name="Apellido" id="lastname" class="input-control input-lastname" placeholder="p. ej.: "Muñoz" aria-label="Apellido" required>
+                          <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                          <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                      </div>
+                  </div>
+                  <div class="form-control email">
+                      <label for="email">Email</label>
+                      <input type="email" name="E-mail" id="email" class="input-control input-email" placeholder="p. ej.: lucy.melisa.lm23@gmail.com" aria-label="Email" required>
+                      <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                      <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                  </div>
+                  <div class="form-control message">
+                      <label for="message">Mensaje</label>
+                      <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control input-message" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+                      <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                      <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                  </div>
+                  <button type="submit" class="send-button">Enviar</button>
+              </form>
+              <!---Fin formulario-->
+          </section>
+      </div>
+  </section>
+<!---Final SECCION CONTACTO-->
+</main>
+<!---Comienzo FOOTER-->
+<footer class="footer-section">
+  <div class="colum footer-container">
+      <!---Navegación FOOTER-->
+      <nav class="footer-nav">
+          <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                  <a href="#about-section" class="footer-nav-link">Hola</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a href="#skills-section" class="footer-nav-link">Conocimientos</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a href="#projects-section" class="footer-nav-link">Proyectos</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a href="#contact-section" class="footer-nav-link">Contacto</a>
+              </li>
+          </ul>
+      </nav>
+      <!---Fin Navegación FOOTER-->
+      <!---Redes FOOTER-->
+      <ul class="footer-social-links">
+          <li class="footer-social-item">
+            <a
+              href=""
+              class="footer-social-twitter"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a href="" class="footer-social-github" aria-label="Github">
+              <i class="fab fa-github-alt footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a
+              href=""
+              class="footer-social-linkedin"
+              aria-label="Linkedin"
+            >
+              <i class="fab fa-linkedin-in footer-social-icon"></i
+            ></a>
+          </li>
+          <li class="footer-social-item">
+            <a href="" class="footer-social-email" aria-label="Email">
+              <i class="fas fa-envelope footer-social-icon"></i
+            ></a>
+          </li>
+        </ul>
+        Hecho con ❤️ por Luciana Muñoz
+      </footer>
+      <!-- ##### Fin Footer ##### -->
+    </body>
+    </html>
+    
