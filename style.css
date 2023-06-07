@@ -1,6 +1,6 @@
 /* Estilos para la barra de navegación */
 .nav-header {
-  background-color:#ffffff;
+  background-color:blanchedalmond;
   padding: 20px;
   justify-content: space-between;
 }
@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .nav-item {
@@ -244,7 +244,8 @@ font-weight: bold;
 .mis-proyectos {
 width: calc(100% / 3 - (0.75em * 2));
 margin: 15px;
-box-sizing:3px,
+border: 2px solid blueviolet;
+border-radius: 8px;
 padding: 20px;
 overflow: hidden
 }
@@ -298,6 +299,13 @@ overflow: hidden
   font-size: 18px;
 }
 
+.generador-de-memes {
+  height: 150px;
+}
+
+.buscador-de-peliculas {
+  height: 120px;
+}
 .seccion-contacto{
   display: flex;
   justify-content: center;
@@ -324,7 +332,7 @@ overflow: hidden
   margin-bottom: 2.5rem;
 }
 
-.contact-social-link {
+.contact-social-list {
   display: flex;
   margin: 0;
   padding: 1.25rem 0rem;
@@ -444,7 +452,7 @@ textarea {
 }
 
 .boton-formu {
-  background-color: #bada63;
+  background-color: green;
   width: 6.25rem;
   margin: 1.25rem 0rem;
   padding: 0.9375rem;
